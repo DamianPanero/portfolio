@@ -1,0 +1,72 @@
+@import "../../../vars.css";
+
+.container{
+    display: flex;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8rem;
+    padding: 1rem;
+    justify-content: space-between;
+    z-index: 1;
+   
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    letter-spacing: 1.75px;
+    
+}
+.title{
+    font-size: 2.6rem;
+    font-weight:bold;
+    margin-bottom: 1.2rem;
+}
+
+.description{
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.heroImg{
+    width:50% ;
+    animation: move 4s infinite ease-in-out;
+    z-index: 1;
+    height: 50%;
+}
+
+@keyframes move{
+    0%{
+        transform: translate(0px,0);
+    }
+    50%{
+        transform:translate(10px,0);
+    }
+    100%{
+        transform:translate(-0px,0);
+    }
+}
+
+.blur{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    min-width: 350px;
+    min-height: 350px;
+    top: -10rem;
+    left: 10vw;
+    border-radius: 764px;
+    background: rgba(128, 107, 187, 0.5);
+    filter: blur(110px);
+}
+
+@media screen and (max-width:830px){
+    .container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}

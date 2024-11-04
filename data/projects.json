@@ -1,0 +1,16 @@
+[
+    {
+        "title":"Simple Calculator",
+        "imageSrc":"Projects/calculator.png",
+        "description":"A calculator to do the basics mathematical operations that you can try out",
+        "skills":["React","JavaScript","CSS"],
+        "demo":"https://damians-basic-calculator.vercel.app/"
+    },
+    {
+        "title":"Weather app",
+        "imageSrc":"Projects/weather.png",
+        "description":"This is a projects to show how can i get the info from the weather API",
+        "skills":["React","JavaScript","CSS"],
+        "demo":"https://damians-weatherapp.vercel.app/"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "title":"CSS",
+        "imageSrc":"About/css.png"
+    },
+    
+  
+    {
+        "title":"HTML",
+        "imageSrc":"About/html.png"
+    },
+    
+    {
+        "title":"chakra UI",
+        "imageSrc":"About/chakra.png"
+    },
+    {
+        "title":"react",
+        "imageSrc":"About/react.png"
+    },
+    {
+        "title":"JavaScript",
+        "imageSrc":"About/js.png"
+    } 
+]

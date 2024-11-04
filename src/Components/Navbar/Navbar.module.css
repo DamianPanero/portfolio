@@ -1,0 +1,88 @@
+
+@import "../../../vars.css";
+
+.navbar{
+    display: flex;
+    position:fixed;
+    align-items: center;
+    z-index: 2;
+    margin: 1.3rem;
+    padding: 1.5rem;
+}
+
+.title{
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 2.6rem;
+    font-weight: 800;
+    
+}
+.menu{
+    display: flex;
+    margin-right: 10%;
+    margin-left: 180%;
+}
+.menuItems{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    list-style-type: none;
+}
+.menuItems a{
+    color: var(--color-text);
+    text-decoration: none;
+}
+.menuItems a{
+    border: 3px solid #fff;
+    padding: 0.18rem;
+    border-radius: 0.6rem;
+    
+}
+.menuItems a:hover{
+    border: 3px solid rgb(25, 15, 49);
+    color:var(--color-primary) ;
+    background: #fff;
+}
+.menuBtn{
+    display: none;
+}
+
+
+@media screen and (max-width:830px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu{
+        position: absolute;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1rem;
+        z-index: 3;
+        
+    }
+    .menuBtn{
+        display: block;
+        cursor: pointer;
+        align-self:center;
+    }
+    .menuItems{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.3rem;
+        border-radius: 10px;
+        padding: 1rem;
+        background: rgb(75, 23, 105);
+        background: linear-gradient(0deg,rgba(75,23,105,0.2)0%,rgba(75,23,105,1)100%);
+        box-shadow: 0,0,0,0.6;
+        
+    }
+    .menuOpen{
+        display: flex;
+        z-index: 1;
+    }
+   
+    
+}
