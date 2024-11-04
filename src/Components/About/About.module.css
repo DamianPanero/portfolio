@@ -19,7 +19,7 @@
     font-family: var(--font-roboto);
     letter-spacing: 1.75px;
     margin: 1rem;
-    width: 33%;    
+    width: 100%;    
 }
 .aboutItems{
     display: flex;

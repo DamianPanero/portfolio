@@ -60,6 +60,7 @@
         align-items: flex-end;
         gap: 1rem;
         z-index: 3;
+        margin-left: 90%;
         
     }
     .menuBtn{
