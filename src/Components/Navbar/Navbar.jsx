@@ -22,7 +22,7 @@ export default function Navbar({language,toggleLanguage}){
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
                     onClick={()=>setMenuOpen(false)}
                 >
-                    <li><a href="#About">{language==="eng"?"About":"Acerca de"}</a></li>
+                    <li><a href="#About">{language==="eng"?"About":"Sobre mi"}</a></li>
                     <li><a href="#Projects">{language==="eng"?"Projects":"Projectos"}</a></li>
                     <li><a href="#Contact">{language==="eng"?"Contact":"Contacto"}</a></li>
 

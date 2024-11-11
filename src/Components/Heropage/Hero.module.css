@@ -37,6 +37,7 @@
     animation: move 4s infinite ease-in-out;
     z-index: 1;
     height: 50%;
+    margin-bottom: 0.5rem;
 }
 
 @keyframes move{
