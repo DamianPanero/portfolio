@@ -2,12 +2,12 @@ import { getImageURL } from "../../utils";
 import styles from "../Contact/Contact.module.css";
 
 
-export default function Contact(){
+export default function Contact({language}){
     return(
         <footer className={styles.footer} id="Contact">
             <div className={styles.content}>
-                <h2 className={styles.title}>Contact me</h2>
-                <p className={styles.description}>Feel free to reach out</p>
+                <h2 className={styles.title}>{language==="eng"?"Contact me":"Contáctame"}</h2>
+                <p className={styles.description}>{language==="eng"?"Feel free to reach out":"Manda un mensaje si tienes alguna duda"}</p>
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}>

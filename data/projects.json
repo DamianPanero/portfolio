@@ -1,15 +1,19 @@
 [
     {
         "title":"Simple Calculator",
+        "titulo":"Calculadora básica",
         "imageSrc":"Projects/calculator.png",
         "description":"A calculator to do the basics mathematical operations that you can try out",
+        "descripcion":"Una calculadora para realizar las operaciones aritmeticas básicas",
         "skills":["React","JavaScript","CSS"],
         "demo":"https://damians-basic-calculator.vercel.app/"
     },
     {
         "title":"Weather app",
+        "titulo":"Clima",
         "imageSrc":"Projects/weather.png",
         "description":"This is a projects to show how can i get the info from the weather API",
+        "descripcion":"Este es un projecto que muestra como puedo obtener datos de una API",
         "skills":["React","JavaScript","CSS"],
         "demo":"https://damians-weatherapp.vercel.app/"
     }

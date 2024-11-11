@@ -4,10 +4,12 @@
 .navbar{
     display: flex;
     position:fixed;
-    align-items: center;
+    align-items:center;
     z-index: 2;
-    margin: 1.3rem;
-    padding: 1.5rem;
+    margin-left:10%;
+    margin-right: 10%;
+    padding: 1.3rem;
+    gap: 2rem;
 }
 
 .title{
@@ -19,8 +21,6 @@
 }
 .menu{
     display: flex;
-    margin-right: 10%;
-    margin-left: 180%;
 }
 .menuItems{
     display: flex;
@@ -48,6 +48,17 @@
     display: none;
 }
 
+.langBtn{
+    width: 4rem;
+    font-size: 1.4rem;
+    background:#fff;
+    color: var(--color-primary);
+    border-radius: 0.6rem;
+    font-weight: 700;
+    border: 3px solid rgb(25, 15, 49);
+    padding: 0.3rem;
+    cursor: pointer;
+}
 
 @media screen and (max-width:830px){
     .navbar{
@@ -60,7 +71,8 @@
         align-items: flex-end;
         gap: 1rem;
         z-index: 3;
-        margin-left: 90%;
+        margin-left: 130%;
+        
         
     }
     .menuBtn{
