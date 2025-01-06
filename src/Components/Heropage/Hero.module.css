@@ -1,6 +1,7 @@
 @import "../../../vars.css";
 
 .container{
+    height: 100%;
     display: flex;
     position: relative;
     margin-left: 10%;

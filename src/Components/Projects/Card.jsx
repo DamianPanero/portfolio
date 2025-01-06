@@ -16,7 +16,7 @@ export default function Card({language,project:{title,titulo,imageSrc,descriptio
             )}
            </ul>
            <div className={styles.links}>
-            <a className={styles.link} href={demo} target="_blank">Demo</a>
+            <a className={styles.link} href={demo} target="_blank" rel="noopener noreferrer">Demo</a>
            </div>
         </div>
     )

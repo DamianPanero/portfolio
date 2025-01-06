@@ -1,10 +1,11 @@
 @import "../../../vars.css";
 
 .container{
+    height: 100%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 7rem;
-    padding:7.5rem 0 7rem 0;
+    margin-top: 3rem;
+    padding:5rem 0 8rem 0;
     color: var(--color-text);
 }
 .title{
