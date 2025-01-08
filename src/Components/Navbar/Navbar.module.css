@@ -64,6 +64,8 @@
     .navbar{
         flex-direction: column;
         align-items: flex-start;
+        padding-bottom: 0;
+        gap: 0.1rem;
     }
     .menu{
         position: absolute;
@@ -98,6 +100,7 @@
         z-index: 1;
     }
     .langBtn{
+        top: 0;
         padding: 0;
         width: 2.6rem;
         font-size:1rem;

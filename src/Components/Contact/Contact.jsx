@@ -16,11 +16,11 @@ export default function Contact({language}){
                     </li>
                 <li className={styles.link}>
                     <img src={getImageURL("Contact/linkedin.png")} alt="linkedin icon"/>
-                    <a href="https://www.linkedin.com/in/damián-panero/" target="_blank">linkedin.com/DamianPanero/</a>
+                    <a href="https://www.linkedin.com/in/damián-panero/" target="_blank" rel="no opener no referrer">linkedin.com/DamianPanero/</a>
                     </li>
                 <li className={styles.link}>
                     <img src={getImageURL("Contact/github.png")} alt="git icon"/>  
-                    <a href="https://www.github.com/DamianPanero" target="_blank">github.com/DamianPanero</a>
+                    <a href="https://www.github.com/DamianPanero" target="_blank" rel="no opener no referrer">github.com/DamianPanero</a>
                     </li>
             </ul>
         </footer>
